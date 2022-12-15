@@ -1,5 +1,9 @@
 ej.base.registerLicense('ORg4AjUWIQA/Gnt2VVhjQlFaclhJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRd0diXH5bcnFVRGheVUw=');
 
+$.getJSON('http://localhost:8080/fleet_temperature_efficiency?model=model3', function (data) {
+  console.log(data);
+});
+
 const chart = new ej.charts.Chart({
   primaryXAxis: {
     valueType: 'DateTime',
